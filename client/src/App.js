@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import EventCard from "./components/EventCard.js";
+import EventCard from "./components/Eventcard.js";
 
 function App() {
   return (

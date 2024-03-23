@@ -13,6 +13,7 @@ const EventCard = (props) => {
             <h3>Date: {props.date}</h3>
             <h3>Time: {props.startTime} - {props.endtime}</h3>
             <h3>Location: {props.location}</h3>
+            <img src={props.image}/>
           </div>
           
     </div>
