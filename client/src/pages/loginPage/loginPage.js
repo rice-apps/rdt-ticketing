@@ -1,21 +1,33 @@
-import React from 'react'
+import React from 'react';
 import "./loginPage.css"
 
-// import Logo from "./images/logo.png"
-// // import LoginBackground from "./images/login.png"
-// import Google from "./images/google.png"
+const LoginPage = () => {
 
-function loginPage(){
-    // const background = [{
-    //     LoginBackground
-    // }]
+  const handleLoginInfo = () => {
+    alert('Login information');
+  }
 
-const img = document.querySelector("login")
-
-// return (
-//     <div className="App">  
-        
-
+  return (
+    <div className="AppLogin">
+        <div className = 'Images'>
+            <img className = 'loginImg'
+                src='login.png'
+            />
+            <img className = 'logoImg'
+                src = 'logo.png'
+            />
+            <text className = "MainText"> Rice Dance Theater</text>
+        </div>
+        <div className = 'loginButton'>
+            <button onClick={handleLoginInfo}>
+                <img className = 'googleLogo'
+                    src = 'google.png'
+                />
+                Log in with Google
+            </button>
+        </div>
+    </div>
+  );
 }
 
-export default loginPage;
+export default LoginPage;

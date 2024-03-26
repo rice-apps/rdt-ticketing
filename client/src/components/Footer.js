@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../Components.css"
+import "../styles/ComponentsFooter.css"
 
 function FooterBar({image, title}) {
     return (
@@ -12,16 +12,16 @@ function FooterBar({image, title}) {
   }
   
   function Footer() {
-    const eventsImage = require('./eventsDark.png'); 
-    const myEventsImage = require('./myEventsLight.png'); 
-    const profileImage = require('./profileLight.png');
+    // const eventsImage = require('./eventsDark.png'); 
+    // const myEventsImage = require('./myEventsLight.png'); 
+    // const profileImage = require('./profileLight.png');
   
     return (
       <footer className="footer">
         <ul className="footer-list">
-          <FooterBar image={eventsImage} title="Events" />
+          {/* <FooterBar image={eventsImage} title="Events" />
           <FooterBar image={myEventsImage} title="My Events" />
-          <FooterBar image={profileImage} title="Profile" />
+          <FooterBar image={profileImage} title="Profile" /> */}
         </ul>
       </footer>
     );
