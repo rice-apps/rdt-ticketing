@@ -10,6 +10,8 @@ function FooterBar({image, title}) {
       </li>
     );
   }
+
+
   
   function Footer() {
     // const eventsImage = require('./eventsDark.png'); 
